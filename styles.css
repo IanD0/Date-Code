@@ -129,3 +129,17 @@
     font-size: 0.8rem;
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
   }
+  @media only screen and (max-device-width: 390px) {
+    /* Ajustes específicos para iPhone 12 */
+    .nav {
+        height: 60px;
+    }
+    
+    main {
+        padding-top: 60px;
+    }
+    p{
+      padding-left: 60px;
+      text-align: center;
+    }
+  }
